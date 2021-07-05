@@ -1,17 +1,15 @@
- Projects# uncomment the urls if you wish to display them, and add your own URL
-
 # Delivery Project
 - project: 자바 배달 프로젝트
   role: 팀원  &mdash; 
   duration: 2019.09.18 &mdash; 2019.10.04
-  url: https://github.com/codingdobby/JavaProject-delivery
+  url: "https://github.com/codingdobby/JavaProject-delivery"
   description: Java GUI로 개발한 택배 관리 프로젝트 
 
 # shopping mall Project
 - project: My Shop
   role: 개인 프로젝트
   duration: 2019.11.07  &mdash; 2019.11.28
-  url: test
+  url: "test"
   description: JSP로 개발, 한 사이트에 다양한 쇼핑몰이 입점하는 편집샵 사이트 프로젝트
 
   # FundingShop Project
