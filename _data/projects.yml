@@ -1,6 +1,6 @@
 # Delivery Project
 - project: 자바 배달 프로젝트
-  role: 팀원  &mdash; 
+  role: 팀원-회원 &mdash; 비회원 구현 담당  
   duration: 2019.09.18 &mdash; 2019.10.04
   url: "https://github.com/codingdobby/JavaProject-delivery"
   description: Java GUI로 개발한 택배 관리 프로젝트 
