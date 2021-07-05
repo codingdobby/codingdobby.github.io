@@ -1,16 +1,22 @@
-# Projects
-# uncomment the urls if you wish to display them, and add your own URL
+ Projects# uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+# Delivery Project
+- project: 자바 배달 프로젝트
+  role: 팀원  &mdash; 
+  duration: 2019.09.18 &mdash; 2019.10.04
+  url: "https://github.com/codingdobby/JavaProject-delivery"
+  description: Java GUI로 개발한 택배 관리 프로젝트 
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+# shopping mall Project
+- project: My Shop
+  role: 개인 프로젝트
+  duration: 2019.11.07  &mdash; 2019.11.28
+  url: "https://github.com/codingdobby/MyShop_Project"
+  description: JSP로 개발, 한 사이트에 다양한 쇼핑몰이 입점하는 편집샵 사이트 프로젝트
+
+  # FundingShop Project
+- project:  Funding Shop
+  role: 개인 프로젝트
+  duration: 2019.12.23  &mdash; 2020.01.16
+  url: "https://github.com/codingdobby/Funding_Shop_ver2"
+  description: Spring Framework를 이용해 개발한 프로젝트, 다수의 개인으로부터 자금을 모아 투자하는 크라우드 펀딩 웹 사이트 제작 프로젝트
