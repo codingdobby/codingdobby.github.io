@@ -11,7 +11,7 @@
 - project: My Shop
   role: 개인 프로젝트
   duration: 2019.11.07  &mdash; 2019.11.28
-  url: "https://github.com/codingdobby/MyShop_Project"
+  url: test
   description: JSP로 개발, 한 사이트에 다양한 쇼핑몰이 입점하는 편집샵 사이트 프로젝트
 
   # FundingShop Project
