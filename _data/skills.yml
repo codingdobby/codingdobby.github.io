@@ -1,12 +1,15 @@
 # Skills
-# JAVA
-- skill: JAVA
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+# back-end
+- part: Back-end
+  description: 쇼핑몰, 크라우드 펀딩, 택배 관리 프로젝트 개발 경험
+  skill: Java
+  skill: JSP
+  skill: SpringFramework 
+
 
 # JSP
-- skill: JSP
-  description: Content and marketing strategy,
-
-#  Spring Framework
-- skill: Spring Framework
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- part: Front-end
+  description: 간단한 화면 구현 가능
+  skill: HTML5
+  skill: CSS
+  skill: JavaScript

@@ -52,23 +52,14 @@
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Education</h2>
+          <h2>학력</h2>
         </header>
 
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-          <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
-          <p class="resume-item-copy" itemprop="description">
-            <ul class="resume-item-list">
-              {% for award in education.awards %}
-              <li>{{ award.award }}</li>
-              {% endfor %}
-            </ul>
-
-
-          <p class="resume-item-copy">{{ education.summary }}</p>
+          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} (  {{ education.year }}  )</h4>
+           
         </div>
         {% endfor %}
       </section>
@@ -82,12 +73,17 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>사용 기술</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
+          <h4 class="resume-item-details">{{ skill.part }}</h4>
             <p class="resume-item-copy">{{ skill.description }}</p>
+            <ul class="resume-item-list">
+              {% for skill in site.data.skills %}
+              <li>{{ skill.skill }}</li>
+              {% endfor %}
+            </ul>
         </div>
         {% endfor %}
 
