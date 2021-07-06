@@ -75,16 +75,13 @@
         <header class="section-header">
           <h2>사용 기술</h2>
         </header>
-        
+
         {% for skill in site.data.skills %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ skill.part }}</h4>
             <p class="resume-item-copy">{{ skill.description }}</p>
-            <ul class="resume-item-list">
-              {% for skill in site.data.skills %}
-              <li>{{ skill.skill }}</li>
-              {% endfor %}
-            </ul>
+            <h4 class="resume-item-details">{{ skill.skill }}</h4>
+         
         </div>
         {% endfor %}
 
@@ -105,7 +102,7 @@
           <h3 class="resume-item-title" itemprop="name">
             {% if project.url %}
            <b>{{ project.project }}</b> 
-          <a href="{{ project.url }}" itemprop="url">{{ project.url }}</a>
+         <h3><a href="{{ project.url }}" itemprop="url">{{ project.url }}</a></h3> 
           {% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
           <p class="resume-item-copy">{{ project.description }}</p>

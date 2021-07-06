@@ -5,9 +5,7 @@
   skill: Java, JSP, SpringFramework 
 
 
-# JSP
+# front-end
 - part: Front-end
   description: 간단한 화면 구현 가능
-  skill: HTML5
-  skill: CSS
-  skill: JavaScript
+  skill: HTML5,  CSS,  JavaScript
