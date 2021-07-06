@@ -2,9 +2,7 @@
 # back-end
 - part: Back-end
   description: 쇼핑몰, 크라우드 펀딩, 택배 관리 프로젝트 개발 경험
-  skill: Java
-  skill: JSP
-  skill: SpringFramework 
+  skill: Java, JSP, SpringFramework 
 
 
 # JSP
